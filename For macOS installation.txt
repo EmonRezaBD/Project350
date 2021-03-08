@@ -6,5 +6,10 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started-
 2. Download Kibana:
 https://www.elastic.co/downloads/kibana
 
+For Installing ES and Cabana:
+Pre-requisite: JDK latest version should be installed in the system.
+
+
+
 
 
