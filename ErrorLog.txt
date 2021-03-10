@@ -1,5 +1,8 @@
 1. Kibana is not ready:
    Solved:
      Use windows power shell(Admin) for running the Kibana.
+     Make sure that elastic search is running before the kibana running.
+     "Sudo is equivalent to power shell admin in windows".
+     
      
 
