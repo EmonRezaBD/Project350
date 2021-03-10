@@ -1,2 +1,11 @@
 1. Elastic Search Running port: 9200
    Kibana Running port: 5601
+
+Steps for installing and running 3 apps:
+1. Download from elastic stack
+2. move to the C , program files directory
+3. run from power shell admin
+
+
+For running logstash:
+1. Create a .conf file
