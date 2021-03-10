@@ -5,4 +5,25 @@
      "Sudo is equivalent to power shell admin in windows".
      
      
-
+timestamp:10032021:1152 
+1. Composer Installation Problems:
+	1. dll file not found
+	2. openssl.dll already running on line 0
+	3. incorrect extension_dir value
+Soln: 
+	  1. Reinstalling xampp
+	  2. Copy oci.dll, oraciel.dll and oraons.dll in C:\xampp\apache\bin
+	  3. Uncommenting extension=oci8_12c,extension=openssl
+	  4. Commenting out extension=php_oci8_12c.dll and extension=php_openssl.dll
+	  
+2. Laravel Installation Problems:
+	1. Missing composer.phar 
+	2. Missing mcrypt.dll file
+	3. "laravel new" command did not work
+	
+Soln:
+	 1. composer.phar not required when using composer.exe desktop client
+	 2. Download mcrypt.zip from https://pecl.php.net/package/mcrypt/1.0.3/windows -> unzip -> paste mcrypt.dll to C:\xampp\php\ext -> enable mcrypt by adding  extension=mcrypt in php.ini file
+	 3.a. Switch directory to  C:\Users\{Username}\AppData\Roaming\Composer and try again
+	 3.b. Try using "composer create-project laravel/laravel {directory} 4.2 --prefer-dist"
+	 
