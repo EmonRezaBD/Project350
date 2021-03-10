@@ -1,0 +1,2 @@
+1. Elastic Search Running port: 9200
+   Kibana Running port: 5601
