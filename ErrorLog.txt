@@ -1,1 +1,5 @@
+1. Kibana is not ready:
+   Solved:
+     Use windows power shell(Admin) for running the Kibana.
+     
 
