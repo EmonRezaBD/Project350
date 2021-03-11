@@ -27,3 +27,12 @@ Soln:
 	 3.a. Switch directory to  C:\Users\{Username}\AppData\Roaming\Composer and try again
 	 3.b. Try using "composer create-project laravel/laravel {directory} 4.2 --prefer-dist"
 	 
+	 
+3. Guzzle is not working: (solved)
+	1. The requested URL was not found on this server. (Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/8.0.0 Server at localhost Port 80)
+Soln:
+	1.a. Move your Guzzle files to C:\xampp\htdocs\guzzle
+	OR
+	1.b. Install Guzzle at C:\xampp\htdocs\guzzle
+	2.   XAMPP server must be running
+	 
