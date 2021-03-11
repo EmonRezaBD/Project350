@@ -15,3 +15,4 @@ Installing Guzzle:
 1. Go to xampp dir
 2. create a folder . ex. HttpClient
 3. install through windows power shell
+    command: composer require guzzlehttp/guzzle
