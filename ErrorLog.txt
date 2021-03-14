@@ -50,3 +50,8 @@ Soln:
 
 5.
 tal error: Uncaught TypeError: Elasticsearch\Client::__construct(): Argument #1 ($transport) must be of type Elasticsearch\Transport, array given, called in C:\xampp\htdocs\elasticsearch-7.11.1\esphpsearch\app\init.php on line 19 and defined in C:\xampp\htdocs\elasticsearch-7.11.1\esphpsearch\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php:242 Stack trace: #0 C:\xampp\htdocs\elasticsearch-7.11.1\esphpsearch\app\init.php(19): Elasticsearch\Client->__construct(Array) #1 C:\xampp\htdocs\elasticsearch-7.11.1\esphpsearch\add.php(2): require_once('C:\\xampp\\htdocs...') #2 {main} thrown in C:\xampp\htdocs\elasticsearch-7.11.1\esphpsearch\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php on line 242
+
+
+Dot(.) er error:
+
+Fatal error: Uncaught Error: Class "Elasticsearch" not found in C:\xampp\htdocs\elasticsearch-7.11.1\esphpsearch\app\init.php:18 Stack trace: #0 C:\xampp\htdocs\elasticsearch-7.11.1\esphpsearch\add.php(2): require_once() #1 {main} thrown in C:\xampp\htdocs\elasticsearch-7.11.1\esphpsearch\app\init.php on line 18
