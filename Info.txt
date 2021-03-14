@@ -20,3 +20,6 @@ Installing Guzzle:
 Running ES and PHP:
 
 copy eslaticsearch to htdocs
+Run ES from here
+create a folder and write codes here
+Run using xampp localhost
