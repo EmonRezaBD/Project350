@@ -36,3 +36,7 @@ Soln:
 	1.b. Install Guzzle at C:\xampp\htdocs\guzzle
 	2.   XAMPP server must be running
 	 
+
+4. ElasticSearch to php file is not connected:
+Uncaught error. Can't find the client.
+
