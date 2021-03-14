@@ -55,3 +55,12 @@ tal error: Uncaught TypeError: Elasticsearch\Client::__construct(): Argument #1 
 Dot(.) er error:
 
 Fatal error: Uncaught Error: Class "Elasticsearch" not found in C:\xampp\htdocs\elasticsearch-7.11.1\esphpsearch\app\init.php:18 Stack trace: #0 C:\xampp\htdocs\elasticsearch-7.11.1\esphpsearch\add.php(2): require_once() #1 {main} thrown in C:\xampp\htdocs\elasticsearch-7.11.1\esphpsearch\app\init.php on line 18
+
+
+Soln:
+
+require_once 'vendor/autoload.php';
+use Elasticsearch\ClientBuilder;
+$client = ClientBuilder::create()->setHosts(['127.0.0.1:9200'])->build();
+
+Yes....Alhamdulliah.
