@@ -38,5 +38,12 @@ Soln:
 	 
 
 4. ElasticSearch to php file is not connected:
-Uncaught error. Can't find the client.
+       Uncaught error. Can't find the client.
+       
+ Soln:
+     Use diffrent syntax for the connection.
+     $hosts = '127.0.0.1';
+     $port = 9200;
+     
+     This will do the work. Alhamdulliah
 
