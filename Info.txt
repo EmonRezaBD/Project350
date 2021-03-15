@@ -28,3 +28,6 @@ video link: https://www.youtube.com/watch?v=3xb1dHLg-Lk&ab_channel=Codecourse
 
 **** Web client Link : https://github.com/elastic/elasticsearch-php
    Use this for the connection.
+   
+   
+laravel API documentation - https://laravel.com/api/8.x/Illuminate.html
