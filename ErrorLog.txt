@@ -70,4 +70,9 @@ Soln:
 (iii) composer dump-autoload
  (iv) composer update
  
+ 7. php artisan migrate --> user access denied
+soln: DB_PASSWORD can be left empty
+
+8. inside schema::create() --> $table->foreignId(column:"buyer_id")->constrained(table:"buyers"); incorrect syntax
+soln: $table->foreignId(column:"buyer_id")->references(column:"buyer_id")->on("buyers");
 Yes....Alhamdulliah.
